@@ -1,5 +1,5 @@
 -module(acc).
-%test change
+%test changed
 check(L) -> check(L,0).
 
 check([],Acc) -> Acc;
