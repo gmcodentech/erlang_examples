@@ -1,4 +1,5 @@
--module(add).
+-module(funct).
+-export([main/1]).
 
 addtwo(A,B) ->
  io:fwrite("~w",[A+B]).

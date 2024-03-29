@@ -1,4 +1,5 @@
--module(fac).
+-module(fact).
+-export([main/1]).
 
 fact(0) -> 1;
 fact(N) -> N * fact(N-1).

@@ -1,5 +1,5 @@
 -module(dictionary).
-
+-export([main/1]).
 main(_) ->
 	D = dict:new(),
 	D1 = dict:append(1,100,D),

@@ -1,5 +1,5 @@
 -module(receiver).
-
+-export([main/1]).
 display() ->
 	receive
 		R -> io:format("\nThe value is ~w",[R])

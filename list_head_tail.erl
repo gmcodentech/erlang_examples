@@ -1,5 +1,5 @@
--module(gettotal).
-
+-module(list_head_tail).
+-export([main/1]).
 total([N|T]) -> N + total(T);
 total([]) -> 0.
 

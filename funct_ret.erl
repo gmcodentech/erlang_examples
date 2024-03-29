@@ -1,4 +1,5 @@
--module(function).
+-module(funct_ret).
+-export([main/1]).
 
 addtwo(A,B) -> A + B.
 

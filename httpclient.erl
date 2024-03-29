@@ -1,5 +1,5 @@
--module(httpget).
-
+-module(httpclient).
+-export([main/1]).
 main(_) ->
 	inets:start(),
 	Url = "http://localhost:5984/_all_dbs",

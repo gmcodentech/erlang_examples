@@ -1,5 +1,5 @@
--module(total).
-
+-module(guard).
+-export([main/1]).
 display(N) when N > 10 ->
 	io:fwrite("greater");
 

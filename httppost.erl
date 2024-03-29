@@ -1,5 +1,6 @@
 -module(httppost).
 -import(base64,[encode/1]).
+-export([main/1]).
 
 main(_) ->
 	inets:start(),

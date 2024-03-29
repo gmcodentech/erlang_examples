@@ -1,5 +1,5 @@
 -module(strconc).
-
+-export([main/1]).
 main(_) ->
 	S1 = "Hello",
 	S2 = " World!",

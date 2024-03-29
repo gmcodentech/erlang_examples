@@ -1,5 +1,5 @@
--module(mapf).
-
+-module(list_map).
+-export([main/1]).
 main(_) ->
 	Disp = fun(X) -> io:format("~w ~n",[X]) end,
 	L = [1,2,3,4,5,6,7],

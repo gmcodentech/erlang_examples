@@ -1,5 +1,5 @@
--module(recordexample).
-
+-module(record).
+-export([main/1]).
 -record(person,{name,age=12,salary}).
 
 main(_) ->

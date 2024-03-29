@@ -1,6 +1,6 @@
--module("modimport").
-
+-module(mod_import).
 -import(mod,[start/0,add/2]).
+-export([main/1]).
 
 main(_) ->
 	mod:start(),

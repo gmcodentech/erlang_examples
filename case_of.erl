@@ -1,5 +1,5 @@
--module(caseex).
-
+-module(case_of).
+-export([main/1]).
 
 main(_) ->
 	X = 15,

@@ -1,4 +1,5 @@
--module(acc).
+-module(count).
+-export([main/1]).
 
 check(L) -> check(L,0).
 

@@ -1,5 +1,5 @@
--module(emp).
- 
+-module(record_list).
+-export([main/1]).
 -record(employee,{name,age,salary}).
  
 main(_) ->

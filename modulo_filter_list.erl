@@ -1,5 +1,5 @@
--module(filterlst).
- 
+-module(modulo_filter_list).
+-export([main/1]).
 main(_) ->
 	L = [1,2,3,4,5,6,7,8],
 	F = fun(N) -> N rem 2 == 0 end,
