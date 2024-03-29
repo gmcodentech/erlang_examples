@@ -2,5 +2,5 @@
 
 main(_) ->
  X = 234,
- throw(“some bad happened”),
+ throw("some bad happened"),
  io:fwrite("Hello").
