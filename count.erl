@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 -module(count).
 -export([main/1]).
 
+=======
+-module(acc).
+%test changed1
+>>>>>>> 84539aca38c3438fd418c8ea6d3f1c914e4e6823
 check(L) -> check(L,0).
 
 check([],Acc) -> Acc;
