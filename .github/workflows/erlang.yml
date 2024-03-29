@@ -21,4 +21,4 @@ jobs:
       with:
         otp-version: '26'
     - name: Compile
-      run: escript hello.erl
+      run: escript lint.erl
