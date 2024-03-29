@@ -1,4 +1,4 @@
--module(factchanged).
+-module(fact).
 -export([main/1]).
 
 fact(0) -> 1;
